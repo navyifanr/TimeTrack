@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/main_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="25dip"
+        android:layout_marginTop="3dp"
+        android:background="@color/top_bg" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dip"
+            android:text="设置"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/bar_top" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip"
+                android:background="@drawable/setting_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginTop="10dip"
+                    android:gravity="center_vertical" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:background="@drawable/setting_push_message2" />
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/setting_text_img_dis"
+                        android:layout_weight="1"
+                        android:text="信息推送"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/setting_text_size" />
+
+                    <ImageButton
+                        android:id="@+id/ib_message_on"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dip"
+                        android:background="@drawable/setting_on2" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/setting_split2" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginTop="10dip"
+                    android:gravity="center_vertical" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:background="@drawable/setting_save_pic2" />
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/setting_text_img_dis"
+                        android:layout_weight="1"
+                        android:text="锁屏设置"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/setting_text_size" />
+
+                    <ImageButton
+                        android:id="@+id/ib_unlocker_on"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dip"
+                        android:background="@drawable/setting_on2" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="25dip"
+                android:background="@drawable/setting_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/ll_setting_fb"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginTop="10dip"
+                    android:gravity="center_vertical" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:background="@drawable/setting_bind_sina2" />
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/setting_text_img_dis"
+                        android:layout_weight="1"
+                        android:text="意见反馈"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/setting_text_size" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dip"
+                        android:background="@drawable/setting_arrow2" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/setting_split2" />
+
+                <LinearLayout
+                    android:id="@+id/ll_setting_update"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginTop="10dip"
+                    android:gravity="center_vertical" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:background="@drawable/setting_update" />
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/setting_text_img_dis"
+                        android:layout_weight="1"
+                        android:text="检查更新"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/setting_text_size" />
+
+                    <TextView
+                        android:id="@+id/tv_setting_update"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dip"
+                        android:text="new"
+                        android:textColor="@color/red"
+                        android:textSize="18dip"
+                        android:textStyle="bold"
+                        android:visibility="gone" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dip"
+                        android:background="@drawable/setting_arrow2" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/setting_split2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="30dip"
+                android:background="@drawable/setting_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/ll_setting_share"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginTop="10dip"
+                    android:gravity="center_vertical" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:background="@drawable/share" />
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/setting_text_img_dis"
+                        android:layout_weight="1"
+                        android:text="分享到"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/setting_text_size" />
+
+                    <TextView
+                        android:id="@+id/tv_setting_update"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dip"
+                        android:text="new"
+                        android:textColor="@color/red"
+                        android:textSize="18dip"
+                        android:textStyle="bold"
+                        android:visibility="gone" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dip"
+                        android:background="@drawable/setting_arrow2" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/setting_split2" />
+
+                <LinearLayout
+                    android:id="@+id/ll_setting_intro"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginTop="10dip"
+                    android:gravity="center_vertical" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:background="@drawable/setting_use" />
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/setting_text_img_dis"
+                        android:layout_weight="1"
+                        android:text="使用说明"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/setting_text_size" />
+
+                    <TextView
+                        android:id="@+id/tv_setting_update"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dip"
+                        android:text="new"
+                        android:textColor="@color/red"
+                        android:textSize="18dip"
+                        android:textStyle="bold"
+                        android:visibility="gone" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dip"
+                        android:background="@drawable/setting_arrow2" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/setting_split2" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <ViewFlipper
+        android:id="@+id/vf_article"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:layout_width="20dip"
+                    android:layout_height="20dip"
+                    android:background="@color/blue" />
+
+                <TextView
+                    android:id="@+id/tv_article_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:paddingLeft="5dip"
+                    android:paddingRight="5dip"
+                    android:text="心理健康"
+                    android:textColor="@color/black"
+                    android:textSize="28dip" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dip"
+                    android:background="@color/blue" />
+            </LinearLayout>
+
+            <ScrollView
+                android:id="@+id/sv_article"
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dip"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tv_article_title"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dip"
+                        android:text="Title"
+                        android:textColor="@color/black"
+                        android:textSize="20dip" />
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:layout_marginRight="10dip"
+                        android:background="@drawable/today_tips_content_split2" />
+
+                    <TextView
+                        android:id="@+id/tv_article_content"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dip"
+                        android:lineSpacingExtra="3dip"
+                        android:text="Content"
+                        android:textColor="@color/black"
+                        android:textSize="16dip" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </ViewFlipper>
+
+</LinearLayout>

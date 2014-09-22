@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/main_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_marginTop="3dp"
+        android:background="@color/top_bg" >
+
+        <TextView
+            android:id="@+id/tv_today"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dip"
+            android:text="今天"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/bar_top" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right" >
+
+<!--             <ImageButton -->
+<!--                 android:id="@+id/ib_show_state" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:layout_gravity="center" -->
+<!--                 android:layout_marginRight="10dip" -->
+<!--                 android:background="@drawable/today_figure" /> -->
+
+            <ImageButton
+                android:id="@+id/ib_circle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginRight="15dip"
+                android:background="@drawable/today_circle" />
+
+            <ImageButton
+                android:id="@+id/ib_pie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="15dip"
+                android:background="@drawable/today_pie_chart" />
+
+            <ImageButton
+                android:id="@+id/ib_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="15dip"
+                android:background="@drawable/today_list" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_change"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center" 
+        android:orientation="horizontal">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip" >
+
+        <TextView
+            android:id="@+id/tv_today_date"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="2012-11-2"
+            android:textColor="@android:color/white"
+            android:textSize="20dip" />
+    </LinearLayout>
+
+</LinearLayout>

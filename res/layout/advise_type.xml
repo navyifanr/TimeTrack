@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <ViewFlipper
+        android:id="@+id/vf_advise_type"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:layout_width="20dip"
+                    android:layout_height="20dip"
+                    android:background="@color/blue" />
+
+                <TextView
+                    android:id="@+id/tv_advise_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:paddingLeft="5dip"
+                    android:paddingRight="5dip"
+                    android:text="心理健康"
+                    android:textColor="@color/black"
+                    android:textSize="28dip" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dip"
+                    android:background="@color/blue" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_advise_type_one"
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_marginTop="10dip"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dip"
+                    android:layout_weight="1" >
+
+                    <LinearLayout
+                        android:id="@+id/ll_advise_type_title1"
+                        android:layout_width="0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_margin="10dip"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/tv_advise_type_title1"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:maxLines="4"
+                            android:textColor="@color/black"
+                            android:textSize="18dip" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/advise_split2" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_advise_type_title2"
+                        android:layout_width="0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_margin="10dip"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/tv_advise_type_title2"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:maxLines="4"
+                            android:textColor="@color/black"
+                            android:textSize="18dip" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_advise_type_title3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dip"
+                    android:layout_weight="1"
+                    android:background="@color/blue"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip" >
+
+                    <TextView
+                        android:id="@+id/tv_advise_type_title3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:maxLines="3"
+                        android:textColor="@color/black"
+                        android:textSize="26dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dip"
+                    android:layout_weight="1" >
+
+                    <LinearLayout
+                        android:id="@+id/ll_advise_type_title4"
+                        android:layout_width="0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_margin="10dip"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/tv_advise_type_title4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:maxLines="4"
+                            android:textColor="@color/black"
+                            android:textSize="20dip" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/advise_split2" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_advise_type_title5"
+                        android:layout_width="0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_margin="10dip"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/tv_advise_type_title5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:maxLines="4"
+                            android:textColor="@color/black"
+                            android:textSize="20dip" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:background="@drawable/setting_split2" />
+
+                <LinearLayout
+                    android:id="@+id/ll_advise_type_title6"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dip"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip" >
+
+                    <TextView
+                        android:id="@+id/tv_advise_type_title6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:maxLines="3"
+                        android:textColor="@color/black"
+                        android:textSize="22dip" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip"
+                android:gravity="right|center_vertical" >
+
+                <TextView
+                    android:id="@+id/tv_advise_type_page"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/gray"
+                    android:textSize="16dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </ViewFlipper>
+
+</LinearLayout>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/main_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="3dp"
+        android:background="@color/top_bg" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dip"
+            android:text="资讯"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/bar_top" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_marginTop="10dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_weight="1" >
+
+            <LinearLayout
+                android:id="@+id/message_person"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_margin="15dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/tperson" />
+
+<!--                 <TextView -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:text="时间人物" -->
+<!--                     android:textColor="@color/white" -->
+<!--                     android:textSize="16dip" /> -->
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/message_aticle"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_margin="15dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/tacticle" />
+
+<!--                 <TextView -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:text="时间美文" -->
+<!--                     android:textColor="@color/white" -->
+<!--                     android:textSize="16dip" /> -->
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_weight="1" >
+
+            <LinearLayout
+                android:id="@+id/message_story"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_margin="15dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/tstory" />
+
+<!--                 <TextView -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:text="时间故事" -->
+<!--                     android:textColor="@color/white" -->
+<!--                     android:textSize="16dip" /> -->
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/message_manage"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_margin="15dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/tmanage" />
+
+<!--                 <TextView -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:text="时间管理" -->
+<!--                     android:textColor="@color/white" -->
+<!--                     android:textSize="16dip" /> -->
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginBottom="10dip"
+            android:layout_weight="1" >
+
+            <LinearLayout
+                android:id="@+id/message_book"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_margin="15dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/tbook" />
+
+<!--                 <TextView -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:text="时间书籍" -->
+<!--                     android:textColor="@color/white" -->
+<!--                     android:textSize="16dip" /> -->
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/message_movie"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_margin="15dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/tmovie" />
+
+<!--                 <TextView -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:text="时间电影" -->
+<!--                     android:textColor="@color/white" -->
+<!--                     android:textSize="16dip" /> -->
+            </LinearLayout>
+        </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>

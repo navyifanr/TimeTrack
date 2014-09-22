@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:gravity="right" >
+
+        <ImageButton
+            android:id="@+id/im_week_piechart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/today_pie_chart" />
+
+        <ImageButton
+            android:id="@+id/im_week_linechart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="15dip"
+            android:background="@drawable/today_line_chart" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_change"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" 
+        android:orientation="vertical">
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dip"
+        android:gravity="center" >
+
+        <ImageButton
+            android:id="@+id/ib_w_last"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dip"
+            android:background="@drawable/history_m_left" />
+
+        <TextView
+            android:id="@+id/tv_w_ldate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12月1日"
+            android:textColor="@android:color/white"
+            android:textSize="20dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textColor="@android:color/white"
+            android:textSize="20dip" />
+
+        <TextView
+            android:id="@+id/tv_w_rdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12月8日"
+            android:textColor="@android:color/white"
+            android:textSize="20dip" />
+
+        <ImageButton
+            android:id="@+id/ib_w_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:background="@drawable/history_m_right" />
+    </LinearLayout>
+
+</LinearLayout>

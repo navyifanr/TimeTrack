@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?> 
+
+<resources> 
+    
+    <color name="unlocker">#A7C0DC</color>
+    <color name="unlock2">#FFFF00</color>
+    <color name="unlock3">#FF0000</color>
+    <color name="unlock4">#008000</color>
+    <color name="unlock5">#696969</color>
+<!--     原来的 -->
+<!--     <color name="work">#FF1096C5</color> -->
+<!--     <color name="relax">#FF14B5B5</color> -->
+<!--     <color name="entertm">#FF8669B7</color> -->
+<!--     <color name="study">#FFDDC356</color> -->
+ <color name="entertm">#164c65</color>
+   <color name="work">#fcb150</color>
+   <color name="study">#3468af</color>
+   <color name="relax">#4fc4f6</color>
+   
+<!--    友盟 -->
+   <color name="body_text_1">#ff000000</color>
+    <color name="body_text_2">#99000000</color>
+    <color name="body_text_disabled">#66000000</color>
+    <color name="body_text_1_inverse">#ffffffff</color>
+    <color name="body_text_2_inverse">#99ffffff</color>
+    <color name="accent_1">#ff29549f</color>
+    <color name="hyperlink">#ffff549f</color>
+    <color name="background_1">#ffffffff</color>
+    <color name="whats_on_separator">#4d000000</color>
+    <color name="all_track_color">#ff222222</color>
+    <color name="block_column_1">#ff0fabff</color>
+    <color name="block_column_2">#ffdf1831</color>
+    <color name="block_column_3">#ff009939</color>
+</resources> 

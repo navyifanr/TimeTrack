@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="umeng_fb_contact_info_hint">请输入你的联系方式，如QQ、微博、邮箱等，以便我们能够找到你！谢谢！</string>
+    <string name="umeng_fb_contact_update_at">Updated at </string>
+    <string name="umeng_fb_back">Back</string>
+    <string name="umeng_fb_title">用户反馈</string>
+    <string name="umeng_fb_contact_title">联系方式</string>
+    <string name="umeng_fb_contact_info">联系方式</string>
+    <string name="umeng_fb_reply_content_hint">请输入反馈信息</string>
+    <string name="umeng_fb_send">发送</string>
+    <string name="umeng_fb_reply_content_default">Your precious feedback are appriciated.</string>
+    <string name="umeng_fb_reply_date_default">2013-8-22 13:24:00</string>
+
+    <color name="umeng_fb_color_btn_pressed">#1495F7</color>
+    <color name="umeng_fb_color_btn_normal">#333333</color>
+
+    <string name="umeng_fb_powered_by">Powered by</string>
+    <string name="umeng_fb_notification_ticker_text">Got new reply</string>
+    <string name="umeng_fb_notification_content_formatter_single_msg">New reply: %s</string>
+    <string name="umeng_fb_notification_content_formatter_multiple_msg">You received %d new replies from the app developer.</string>
+
+</resources>
