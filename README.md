@@ -1,4 +1,8 @@
-TimeTrack
+TimeTrack(时间记录)
 =========
 
-A app for record your time...
+一个以解锁的方式记录时间的应用，两年前开发的，功能不是十分完善，现已停止更新，应用下载地址：[TimeTrack时间记录(即时间管理)](http://www.mumayi.com/android-277374.html)
+
+这是一款个人独立开发的软件，由于当时刚开始学android，所以整个项目框架设计不是很好，后来就没有更新了。
+
+
